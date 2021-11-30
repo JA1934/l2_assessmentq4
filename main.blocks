@@ -1,0 +1,13 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><block type="device_button_event" id="(KfKG?z?XC|}M-$ABn.R" x="0" y="0"><field name="NAME">Button.A</field><statement name="HANDLER"><block type="device_while" id="1!@Y]7!)8K7+RNg,`tf0"><value name="COND"><shadow type="logic_boolean" id="(/_ZGvvb#*$^ON+hHh{u"><field name="BOOL">TRUE</field></shadow></value><statement name="DO"><block type="device_show_leds" id="JB31yXf=_1Sv,hj4V^Tx"><field name="LEDS">`
+        # # # # # 
+        # # # # # 
+        # # # # # 
+        # # # # # 
+        # # # # #
+        `</field><next><block type="device_pause" id="WR?@85_m5w68l=o1_GT6"><value name="pause"><shadow type="timePicker" id="c/(NR25OObnk7^~#*Zj;"><field name="ms">200</field></shadow></value><next><block type="device_show_leds" id="Tfr?cg]}_x+@E-d/ft%D"><field name="LEDS">`
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        . . . . .
+        `</field><next><block type="device_analog_set_pitch_pin" id="l{efAy2/=^,6.R4N%?+]"><field name="name">AnalogPin.P1</field><next><block type="device_play_note" id="bw~)89=yNz!KJ,e6kQU0"><value name="note"><shadow type="device_note" id="0IW]@`YVW$)E}sW,I;-9"><field name="name">262</field></shadow></value><value name="duration"><shadow type="device_beat" id="y^Z[B`_d@e[RgQbG*j4,"><field name="fraction">BeatFraction.Whole</field></shadow></value><next><block type="device_rest" id="xd)?+*KXf@L5hy6u(qMx"><value name="duration"><shadow type="device_beat" id="{]i*RGJH-w;?XLCW/fa{"><field name="fraction">BeatFraction.Whole</field></shadow></value><next><block type="device_set_digital_pin" id="!b/pnnd?RKdRU`Bm|lM@"><field name="name">DigitalPin.P0</field><value name="value"><shadow type="math_number_minmax" id="6(l=h+tkw8tWGazJQ?v9"><mutation min="0" max="1" label="Number" precision="0"/><field name="SLIDER">0</field></shadow></value><next><block type="device_pause" id="r4,o1;Ql$(;~?4B;Y[*/"><value name="pause"><shadow type="math_number" id="J1!w8uSZr^otPb0N!/+_"><field name="NUM">500</field></shadow></value><next><block type="device_set_digital_pin" id="D8`jEEH.]kn0,79Ld?40"><field name="name">DigitalPin.P0</field><value name="value"><shadow type="math_number_minmax" id="nyb.p1Xg+8d5E4Wb_w!^"><mutation min="0" max="1" label="Number" precision="0"/><field name="SLIDER">0</field></shadow></value><next><block type="device_pause" id="fq?B9F`l7`(E;Y;omJ`i"><value name="pause"><shadow type="math_number" id="JH;?H;V)b!E]8u})C|47"><field name="NUM">500</field></shadow></value></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></statement></block></statement></block></xml>
